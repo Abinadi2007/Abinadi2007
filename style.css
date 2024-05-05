@@ -1,55 +1,30 @@
-/* External CSS: Link this CSS file to your HTML document */
+/* styles.css */
 
-/* Nav Rule */
-nav {
-    /* Add your nav styling here */
-}
-
-/* Nav Anchor Rule */
-nav a {
-    /* Add your nav anchor styling here */
-}
-
-/* Heading 1 Rule */
-h1{
-    /* Add your h1 styling here */
-}
-
-/* img Rule */
-img {
-    /* Add your img styling here */
-}
-
-/* Main Rule */
+/* Apply styles to the main content */
 main {
     max-width: 840px;
-    margin: 1rem auto; /* Center the main content */
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    margin: 0 auto; /* Center the main content horizontally */
+    padding: 20px;
 }
 
-/* Aside Rule */
-aside {
-    /* Add your aside styling here */
+/* Apply styles to the main heading */
+h1 {
+    color: navy;
+    font-family: Arial, sans-serif;
 }
 
-/* Aside Image Rule */
-aside img {
-    width: 200px;
-    height: auto;
+/* Apply styles to the navigation links */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: darkgreen;
+    margin-right: 10px; /* Add spacing between navigation links */
 }
 
-/* Paragraph Rule */
-p {
-    padding: 0;
-}
-
-/* Footer Rule */
+/* Apply styles to the footer */
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
     text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc; /* Add a border above the footer */
+    color: #666;
 }
