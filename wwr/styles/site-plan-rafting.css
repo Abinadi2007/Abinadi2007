@@ -38,4 +38,5 @@ p {
 .callout {
   font-family: var(--heading-font);
   color: var(--accent2-color);
+  padding: 10px; /* Add padding for better visibility */
 }
