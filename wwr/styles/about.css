@@ -43,7 +43,7 @@ nav a {
 
 .hero img {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -64,7 +64,7 @@ nav a {
   color: white;
   padding: 1rem;
   border-radius: 5px;
-  width: 50%;
+  width: 80%;
 }
 
 .hero article img {
@@ -76,6 +76,19 @@ nav a {
 
 section {
   padding: 2rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 footer {
@@ -94,3 +107,4 @@ footer {
 .sociallinks a {
   text-decoration: none;
 }
+
