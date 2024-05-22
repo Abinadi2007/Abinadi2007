@@ -1,27 +1,48 @@
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Combined Header and Nav Styling */
+header, nav {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 nav {
     background-color: slategray;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav a{
+nav a {
     color: white;
     padding: 10px;
-    display: block;
+    text-decoration: none;
 }
 
-h1{
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
     color: slateblue;
     padding: 5rem;
+    border-bottom: 1px solid #ccc; /* Add bottom border to h1 */
 }
 
 main {
-    max-width: 840px
+    max-width: 840px;
+    margin: 0 auto; /* Center main content */
 }
 
 main img {
@@ -32,7 +53,6 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
 }
 
 p {
