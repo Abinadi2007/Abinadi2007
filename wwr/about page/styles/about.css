@@ -98,13 +98,13 @@ footer {
   padding: 1rem;
 }
 
-.sociallinks a img {
-  height: 10px;
-  width: 10px;
-  margin: 0 10px;
-}
-
 .sociallinks a {
   text-decoration: none;
+  display: inline-block;
 }
 
+.sociallinks img {
+  height: 24px;
+  width: 24px;
+  margin: 0 10px;
+}
