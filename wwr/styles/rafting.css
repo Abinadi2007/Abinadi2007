@@ -56,7 +56,7 @@ p {
 .callout {
   font-family: var(--heading-font);
   color: var(--accent2-color);
-  padding: 10px; /* Add padding for better visibility */
+  padding: 10px; 
 }
 
 .adventures {
@@ -83,6 +83,76 @@ footer {
 }
 
 .sociallinks img {
-  width: 30px; /* Adjust the width of the social icons */
-  height: auto; /* Maintain aspect ratio */
+  width: 30px; 
+  height: auto;
+}
+
+.wireframe-container {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.wireframe-image {
+  width: 100%; 
+  height: auto; 
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.employee {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.employee img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.employee figcaption {
+  font-style: italic;
+  color: #666;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: #4A6670;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8A3033;
 }

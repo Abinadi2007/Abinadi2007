@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Rios Bravos Rafting</title>
-  <meta name="description" content="About us page for rafting company 'Rios bravos' oficial site .">
+  <title>Contact Us - Rios Bravos Rafting</title>
+  <meta name="description" content="Contact us page for rafting company 'Rios bravos' official site.">
   <meta name="author" content="Joseph Abinadi Jimenez Davis">
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -19,41 +19,56 @@
     </nav>
   </header>
   <main>
-    <div class="hero">
-      <img src="images/hero.jpg" alt="Rafting Adventure">
-      <h1>Rafting Company</h1>
-      <article>
-        <img src="images/happy-client.png" alt="Happy Client">
-        <p>Our mission is to provide the best rafting experiences to those who enjoy danger, we love to see you smile and create happy memories with your friends and family, we hope our services pleases you and your wants!</p>
-      </article>
-    </div>
     <section>
-      <h2>History</h2>
-      <p>Our company was founded in May 31 2012 in the city of Tegucigalpa, Honduras. We've decided to start the company to make tourist from around the globe enjoy the majesty and dangerous turbulent waters of our country, and for those who like danger, to give them a nice and epic experience!</p>
+      <h2>Contact Information</h2>
+      <address>
+        <p>X9X8+CX, Palo de Agua, Comayagua, Honduras, Central America</p>
+        <p>Phone: (504) 4560-7890</p>
+        <p>Email: info@riosbravos.com</p>
+      </address>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6904.845833572937!2d-87.6323922015029!3d15.000061911180541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2shn!4v1716428647715!5m2!1ses!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
-    <section class="adventures">
-      <h2>Adventure Awaits You!</h2>
-      <figure>
-        <img src="images/rafting1.jpg" alt="Rafting Image 1">
-        <figcaption>Los Dientes del Diablo</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting2.jpg" alt="Rafting Image 2">
-        <figcaption>Big Mallard</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting3.jpg" alt="Rafting Image 3">
-        <figcaption>Half Day Adventure</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting4.jpg" alt="Rafting Image 4">
-        <figcaption>Raging Rapids</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting5.jpg" alt="Rafting Image 5">
-        <figcaption>Thrill Seeker</figcaption>
-      </figure>
+    <section>
+      <h2>Our Team</h2>
+      <div class="employee">
+        <img src="images/employee1.jpg" alt="Employee 1">
+        <figcaption>John Doe - CEO</figcaption>
+      </div>
+      <div class="employee">
+        <img src="images/employee2.jpg" alt="Employee 2">
+        <figcaption>Jane Smith - Marketing Manager</figcaption>
+      </div>
+      <div class="employee">
+        <img src="images/employee3.jpg" alt="Employee 3">
+        <figcaption>Mike Johnson - Customer Service</figcaption>
+      </div>
     </section>
+    <section>
+      <h2>Contact Form</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="purpose">Purpose:</label>
+        <select id="purpose" name="purpose" required>
+          <option value="" selected disabled>Choose One ...</option>
+          <option value="general">General Inquiry</option>
+          <option value="reservation">Reservation Question</option>
+          <option value="suggestion">Website Suggestion</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <div id="wireframe">
+    <iframe src="https://app.moqups.com/7mNX6TF6YUb1MMSTPhtOWFlypnhkMjgq/view/page/ad12de680" width="100%" height="600px" frameborder="0"></iframe>
+    </div>
   </main>
   <footer>
     <p>&copy; 2024 Rios Bravos. Created by Joseph Abinadi Jimenez Davis.</p>
