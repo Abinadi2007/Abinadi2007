@@ -81,3 +81,8 @@ footer {
 .sociallinks a {
   margin-left: 10px;
 }
+
+.sociallinks img {
+  width: 30px; /* Adjust the width of the social icons */
+  height: auto; /* Maintain aspect ratio */
+}
